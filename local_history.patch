@@ -1,0 +1,15 @@
+Index: TesteOpencv.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- TesteOpencv.py	(date 1576642876050)
++++ TesteOpencv.py	(date 1576642876050)
+@@ -5,5 +5,5 @@
+ image = cv2.imread("opencv-python.jpg")
+ imagecinza= cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
+ cv2.imshow("Original",image)
+-cv2.imshow("Image")
++cv2.imshow("Cinza",imagecinza)
+ cv2.waitKey()
+\ No newline at end of file
